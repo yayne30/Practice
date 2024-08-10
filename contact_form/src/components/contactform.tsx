@@ -54,8 +54,8 @@ function ContactForm() {
 
         <p className="error"> {errors.email?.message}</p>
         <label htmlFor="message"> Message </label>
-        <input
-          type="text"
+        <textarea
+          // type="text"
           id="message"
           {...register("message", { required: "Message cannot be Blank" })}
         />
