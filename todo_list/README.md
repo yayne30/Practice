@@ -22,6 +22,9 @@ To get started with this Todo List application, follow the steps below:
     cd todo-list-app
 3. **Install dependencies**
       npm install
+
+    
+
 ## Usage
 Add a Task:
 
