@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+</head>
+<style>
+    .wrapper{
+    
+        display: flex;
+
+    }
+    .addTask_wrapper {
+      
+        width: 40%;
+        height: 50vh;
+        margin:100px;
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .taskList{
+        border-radius: 30px;
+        background-color:rgb(144, 249, 249);
+        width: 40%;
+        height: 50vh;
+        margin:100px;
+        padding-left:20px;
+    }
+    h1{
+        text-align: center;
+    }
+    input{
+        border:2px gray solid;
+        border-radius: 20px;
+        height: 50px;
+        margin-bottom: 10px;
+        padding: 0;
+        font-size: 16pt;
+        font-weight: bolder;
+        padding-left: 5px;
+    }
+    button{
+        height:40px;
+        width:200px;
+        align-self: center;
+        background-color: rgb(7, 137, 137);
+        border:1px solid rgb(95, 133, 133);
+        color:white;
+        font-size: 14pt;
+        font-weight: bold;
+        padding:0;
+        border-radius: 30px;
+        margin-bottom: 10px;
+        
+    }
+    input::placeholder{
+        font-size: 14pt;
+        color: black;
+    }
+    ul{
+        font-size: 18pt;
+        font-weight: bold;
+        cursor:context-menu;
+       
+    }
+    li{
+        margin-bottom: 10px;
+    }
+    li:hover{
+        color:red;
+        font-size: 20pt;
+        
+    }
+    .task_date{
+        width: 200px ;
+    }
+    .input_date{
+        margin: 20px 0;
+        display: flex;
+        gap:30px;
+    }
+
+</style>
+<body>
+    <h1> Welcome to your to-do-list app</h1>
+    <div class="wrapper">
+        <div class="addTask_wrapper">
+            <input placeholder="Write the task here..." id="task_input"/>
+            <!-- <div class="input_date"> 
+                <input id="start_date" placeholder="Start Date" type="date"/> 
+                <input id="end_date" placeholder="End Date" type="date" />
+            </div> -->
+            <button class ='add_btn'> Add Task </button>
+        </div>
+        <div class="taskList">
+            <h1> Daily Tasks</h1>
+            <p> NO TASKS for Today :) </p>
+            <ul></ul>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+    
+</body>
+</html>
