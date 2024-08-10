@@ -73,7 +73,7 @@ padding:0;
 }
 .delete_btn{
   width: 60px;
-  background-color: rgb(175, 243, 201);
+  background-color: rgb(200, 240, 215);
 padding:0;
-color: black;
+color: rgb(199, 0, 0);
 }
