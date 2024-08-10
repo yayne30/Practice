@@ -12,7 +12,10 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-hook-form": "^7.52.2"
+    "react-hook-form": "^7.52.2",
+    "react-message-popup": "^2.0.0-alpha.0",
+    "reactjs-popup": "^2.0.6",
+    "save": "^2.9.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",

@@ -1,6 +1,7 @@
 import { useForm } from "react-hook-form";
 // import { DevTool } from "@hookform/devtools";
 import { useEffect } from "react";
+
 import './contactform.css'
 
 
@@ -20,6 +21,7 @@ function ContactForm() {
   };
   useEffect(() =>{
     if (isSubmitSuccessful){
+      alert("form submitted successfully")
       reset()
     }
   })
