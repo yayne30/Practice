@@ -8,6 +8,21 @@ This is a simple Todo List application built with React. It allows users to add,
 - **Edit Task:** Users can edit an existing task by clicking the "Edit" button, modifying the task text, and saving the changes.
 - **Delete Task:** Users can delete a task by clicking the "Delete" button.
 
+## Usage
+Add a Task:
+
+Type your task into the input field.
+Click on the "Add task" button to add it to the list.
+Edit a Task:
+
+Click the "Edit" button next to the task you want to modify.
+Change the text in the input field that appears.
+Click "Save" to update the task.
+Delete a Task:
+
+Click the "Delete" button next to the task you want to remove from the list.
+
+
 ## Installation
 
 To get started with this Todo List application, follow the steps below:
@@ -24,17 +39,3 @@ To get started with this Todo List application, follow the steps below:
       npm install
 
     
-
-## Usage
-Add a Task:
-
-Type your task into the input field.
-Click on the "Add task" button to add it to the list.
-Edit a Task:
-
-Click the "Edit" button next to the task you want to modify.
-Change the text in the input field that appears.
-Click "Save" to update the task.
-Delete a Task:
-
-Click the "Delete" button next to the task you want to remove from the list.
