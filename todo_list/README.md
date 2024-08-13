@@ -25,17 +25,22 @@ Click the "Delete" button next to the task you want to remove from the list.
 
 ## Installation
 
-To get started with this Todo List application, follow the steps below:
+### Clone the Repository
+```bash
+git clone https://github.com/yayne30/Practice/tree/main/todo_list
+cd todo_list
+npm install
+npm run dev
+```
+Open your browser and navigate to http://localhost:3000 to view and interact with the todo_list.
 
-1. **Clone the repository:**
+### Images
 
-   ```bash
-   git clone https://github.com/your-username/todo-list-app.git
+### default state with no task
+![Screenshot](public/default.png)
 
-2. **Navigate to the project directory::**
-  ```bash
-    cd todo-list-app
-3. **Install dependencies**
-      npm install
+### displays the todo list
+![Screenshot](public/task.png)
+
 
     
