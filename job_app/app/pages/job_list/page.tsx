@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../components/job_card/card";
+import Card from "../../components/job_card/card";
 import Link from "next/link";
 import {jobs} from '@/public/data'
 
