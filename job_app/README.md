@@ -118,10 +118,10 @@ public/: Contains static assets like images and the data.js file, where job list
 ### Images
 
 ### The job applicant dashboard/ job details
-![Screenshot](public/default.png)
+![Screenshot](public/images/job_detail.png)
 
 ### The job listing page
-![Screenshot](public/error.png)
+![Screenshot](public/images/job_list.png)
 
 
 
