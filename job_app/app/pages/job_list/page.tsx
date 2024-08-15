@@ -3,7 +3,7 @@ import Card from "../../components/job_card/card";
 import Link from "next/link";
 import {jobs} from '@/public/data'
 
-const Dashboard = async () => {
+const JobList = async () => {
   interface job {
     id: number;
     title: string;
@@ -54,8 +54,8 @@ const Dashboard = async () => {
 
       <div>
       {jobs.map((job) => (
-          <div className="mb-11">
-          <Link key={job.id} href={`/dashboard/${job.id}`} >
+          <div className="mb-11" key={job.id}>
+          <Link key={job.id} href={`pages/dashboard/${job.id}`} >
             <Card job = {job} />
           </Link>
           </div>
@@ -65,4 +65,4 @@ const Dashboard = async () => {
   );
 };
 
-export default Dashboard;
+export default JobList;
