@@ -54,7 +54,8 @@ export default function JobDetails({ params }: { params: Params }) {
                 When & where{" "}
               </h1>
               <div className="flex">
-                 
+                
+                 <img src="images/location.png" />
                 <p className=" text-custom-blue text-[14px] mt-2 ml-3">
                   {one_job.whenAndWhere}{" "}
                 </p>
@@ -72,9 +73,12 @@ export default function JobDetails({ params }: { params: Params }) {
                   
                 </div>
 
-                <div>
+                <div className="flex">
+                  <img src="public/images/deadline.png"/>
+                  <div>
                   <p> Posted on</p>
                   <p> {one_job?.datePosted}</p>
+                  </div>
                 </div>
               </div>
               <div className="flex text-[14px] gap-3 mb-4">
@@ -82,19 +86,26 @@ export default function JobDetails({ params }: { params: Params }) {
                  
                 </div>
 
+                <div className="flex">
+                <img src="public/images/deadline.png"/>
                 <div>
                   <p> Deadline</p>
                   <p> {one_job?.deadline}</p>
+                  </div>
                 </div>
               </div>
+
               <div className="flex text-[14px] gap-3 mb-4">
                 <div>
                  
                 </div>
 
-                <div>
+                <div className="flex">
+                  <img src="public/images/deadline.png" />
+                  <div>
                   <p> Location </p>
                   <p> {one_job?.location}</p>
+                  </div>
                 </div>
               </div>
               <div className="flex text-[14px] gap-3 mb-4">
@@ -102,9 +113,12 @@ export default function JobDetails({ params }: { params: Params }) {
 
                 </div>
 
-                <div>
+                <div className="flex">
+                  <img src="public/images/deadline.png"/>
+                  <div>
                   <p> Start Date</p>
                   <p> {one_job?.startDate}</p>
+                  </div>
                 </div>
               </div>
               <div className="flex text-[14px] gap-3 mb-4">
@@ -112,9 +126,12 @@ export default function JobDetails({ params }: { params: Params }) {
                   
                 </div>
 
-                <div>
+                <div className="flex">
+                  <img src="public/images/deadline.png" />
+                  <div>
                   <p> End Date</p>
                   <p> {one_job?.endDate}</p>
+                  </div>
                 </div>
               </div>
             </div>
