@@ -16,19 +16,17 @@ git clone https://github.com/your-username/job-listing-app.git
 cd job-app
 Install dependencies:
 
-bash
+```bash
 Copy code
 npm install
 Run the development server:
 
-
-=======
-
-bash
+```bash
 Copy code
 npm run dev
 This will start the app on http://localhost:3000.
 
+```
 
 ### Images
 
