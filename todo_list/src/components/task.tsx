@@ -44,6 +44,10 @@ export default function Task() {
 function handleDelete(task:todo){
     setTasks((prevTasks) => prevTasks.filter((t) => t.id !== task.id))
 }
+function handleCancel(){
+  setEditTask("");
+  setEditTaskId(undefined);
+}
   return (
     <div className="task_container">
         <h1> Today's Todo list </h1>
@@ -69,15 +73,17 @@ function handleDelete(task:todo){
                       <>
                         <input className = " edit_input"value={edittask} onChange={(e) =>{setEditTask(e.target.value)}}/>
                         <button className="save_btn" onClick={() =>{handleSave(t)}}> Save</button>
+                        <button onClick={() => handleCancel()} className="delete_btn"> Cancel </button>
                       </>
                     ) : (
                       <>
                         <span className="input_text">📝{t.todo_task}</span>
                         <button className = "edit_btn" onClick={() => handleEdit(t)}> Edit </button>
+                        <button onClick={() => handleDelete(t)} className="delete_btn"> Delete </button>
                       </>
                     )}
 
-                    <button onClick={() => handleDelete(t)} className="delete_btn"> Delete </button>
+                    
                   </li>
             
               ))}
