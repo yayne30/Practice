@@ -4,49 +4,22 @@ import { useGetAllOpportunititesQuery } from "@/app/redux/service/dummy"
 import Link from 'next/link';
 import Card from '@/app/components/job_card/card';
 const Products = () => {
-    interface Job {
-        id: string,
-        title:string,
-        description:string;
-        responsibilities:string,
-        requirements:string,
-        idealCandidate:string,
-        categories:string[],
-        opType:string,
-        startDate:string,
-        endDate:string,
-        deadling:string,
-        location:string[],
-        requiredSkills:string[],
-        whenAndWhere: string,
-        orgID: string,
-        datePosted:string,
-        status:string,
-        applicantsCount:number,
-        viewsCount:number,
-        orgName:string,
-        logoUrl:string,
-        isBookmarked:string,
-        isRolling:boolean,
-        questions:string,
-        perksAndBenefits:string,
-        createdAt:string,
-        updatedAt:string,
-        orgPrimaryPhone:string,
-        orgEmail:string,
-        average_rating:number,
-        total_reviews:number
-   
-       }
+  
     const {data:responseData, isError, isFetching, isLoading, isSuccess} = useGetAllOpportunititesQuery({})
    
   return (
 
     <div>
     {isFetching ? (
-        <p>Loading...</p>
+      <div className="flex items-center justify-center min-h-screen">
+                <p className="text-center text-3xl font-bold">Loading...</p>
+
+        </div>
     ) : isError ? (
-        <p>Error occurred while fetching data.</p>
+      <div className="flex items-center justify-center min-h-screen">
+      <p className="text-center text-3xl font-bold">Loading...</p>
+
+</div>
     ) : isSuccess ? (
 
         <div className="py-10 pl-52 pr-72 h-[100%] text-custom-blue">
@@ -72,7 +45,7 @@ const Products = () => {
           </Link>
           </div>
         ))}
-           {responseData.data.map((t:Job) => t.title)}
+           {responseData.data.map((t:any) => t.title)}
           
         </div>
         </div>
