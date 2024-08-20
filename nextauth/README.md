@@ -28,7 +28,7 @@ Open your browser and navigate to http://localhost:3000 to view and interact wit
 ![Screenshot](public/signup.png)
 
 ### Google auth
-![Screenshot](public/auth_google.png)
+![Screenshot](/images/auth_google.png)
 
 ### Google sign In page
 ![Screenshot](public/signin_google.png)
