@@ -31,7 +31,7 @@ Open your browser and navigate to http://localhost:3000 to view and interact wit
 ![Screenshot](/images/auth_google.png)
 
 ### Google sign In page
-![Screenshot](public/signin_google.png)
+![Screenshot](public/images/signin_google.png)
 
 ### after Login
 ![Screenshot](public/after_login.png)
