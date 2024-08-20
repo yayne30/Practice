@@ -21,14 +21,21 @@ Open your browser and navigate to http://localhost:3000 to view and interact wit
 
 ### Images
 
-### default state with all fields empty
-![Screenshot](public/default.png)
+### Login page
+![Screenshot](public/login.png)
 
-### displaying error messages indicating that the Name, Email, and Message fields are required.
-![Screenshot](public/error.png)
+### Sign up Page
+![Screenshot](public/signup.png)
 
-### An error message for the Email field, indicating that the entered email format is invalid.
-![Screenshot](public/invalid.png)
+### Google auth
+![Screenshot](public/auth_google.png)
 
-### With all fields filled out correctly and no error messages displayed
-![Screenshot](public/data.png)
+### Google sign In page
+![Screenshot](public/signin_google.png)
+
+### after Login
+![Screenshot](public/after_login.png)
+
+### Home
+![Screenshot](public/home.png)
+
