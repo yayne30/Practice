@@ -22,20 +22,20 @@ Open your browser and navigate to http://localhost:3000 to view and interact wit
 ### Images
 
 ### Login page
-![Screenshot](public/login.png)
+![Screenshot](public/images/login.png)
 
 ### Sign up Page
-![Screenshot](public/signup.png)
+![Screenshot](public/images/signup.png)
 
 ### Google auth
-![Screenshot](/images/auth_google.png)
+![Screenshot](public/images/auth_google.png)
 
 ### Google sign In page
 ![Screenshot](public/images/signin_google.png)
 
 ### after Login
-![Screenshot](public/after_login.png)
+![Screenshot](public/images/after_login.png)
 
 ### Home
-![Screenshot](public/home.png)
+![Screenshot](public/images/home.png)
 
